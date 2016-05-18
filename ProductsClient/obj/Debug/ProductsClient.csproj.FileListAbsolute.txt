@@ -1,0 +1,10 @@
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductsClient\bin\Debug\ProductsClient.exe.config
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductsClient\bin\Debug\ProductsClient.exe
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductsClient\bin\Debug\ProductsClient.pdb
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductsClient\obj\Debug\ProductsClient.exe
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductsClient\obj\Debug\ProductsClient.pdb
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductsClient\bin\Debug\ProductInterfaces.dll
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductsClient\bin\Debug\ProductInterfaces.pdb
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductsClient\obj\Debug\ProductsClient.csprojResolveAssemblyReference.cache
+C:\Users\Pawel\documents\visual studio 2013\Projects\Products\ProductsClient\bin\Debug\EntityFramework.dll
+C:\Users\Pawel\documents\visual studio 2013\Projects\Products\ProductsClient\bin\Debug\EntityFramework.xml

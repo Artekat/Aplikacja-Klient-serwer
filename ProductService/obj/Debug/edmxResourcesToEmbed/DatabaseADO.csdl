@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Table">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="imie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nazwisko" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="adres" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="DatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Tables" EntityType="Self.Table" />
+    <EntitySet Name="Pracownicies" EntityType="DatabaseModel.Pracownicy" />
+  </EntityContainer>
+  <EntityType Name="Pracownicy">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="imie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nazwisko" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="adres" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LokalnabazaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Pracownicy">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="imie" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="nazwisko" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="adres" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="nr_rach" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="login" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="haslo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="stan_konta" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Transakcje">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kwota" Type="money" Nullable="false" />
+    <Property Name="rodzaj_tran" Type="int" Nullable="false" />
+    <Property Name="id_user" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="LokalnabazaModelStoreContainer">
+    <EntitySet Name="Pracownicy" EntityType="Self.Pracownicy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transakcje" EntityType="Self.Transakcje" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

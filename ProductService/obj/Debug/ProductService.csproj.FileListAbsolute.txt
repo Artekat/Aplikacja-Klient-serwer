@@ -1,0 +1,12 @@
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductService\bin\Debug\ProductService.exe.config
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductService\bin\Debug\ProductService.exe
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductService\bin\Debug\ProductService.pdb
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductService\bin\Debug\EntityFramework.dll
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductService\bin\Debug\EntityFramework.xml
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductService\obj\Debug\ProductService.exe
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductService\obj\Debug\ProductService.pdb
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductService\bin\Debug\ProductInterfaces.dll
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductService\bin\Debug\ProductInterfaces.pdb
+c:\users\pawel\documents\visual studio 2013\Projects\Products\ProductService\obj\Debug\ProductService.csprojResolveAssemblyReference.cache
+C:\Users\Pawel\documents\visual studio 2013\Projects\Products\ProductService\bin\Debug\Lokalnabaza.mdf
+C:\Users\Pawel\documents\visual studio 2013\Projects\Products\ProductService\bin\Debug\Lokalnabaza_log.ldf

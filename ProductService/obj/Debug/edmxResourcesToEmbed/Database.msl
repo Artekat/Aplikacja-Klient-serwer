@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LokalnabazaModelStoreContainer" CdmEntityContainer="LokalnabazaEntities">
+    <EntitySetMapping Name="Pracownicies">
+      <EntityTypeMapping TypeName="LokalnabazaModel.Pracownicy">
+        <MappingFragment StoreEntitySet="Pracownicy">
+          <ScalarProperty Name="stan_konta" ColumnName="stan_konta" />
+          <ScalarProperty Name="haslo" ColumnName="haslo" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="nr_rach" ColumnName="nr_rach" />
+          <ScalarProperty Name="adres" ColumnName="adres" />
+          <ScalarProperty Name="nazwisko" ColumnName="nazwisko" />
+          <ScalarProperty Name="imie" ColumnName="imie" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transakcjes">
+      <EntityTypeMapping TypeName="LokalnabazaModel.Transakcje">
+        <MappingFragment StoreEntitySet="Transakcje">
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="rodzaj_tran" ColumnName="rodzaj_tran" />
+          <ScalarProperty Name="kwota" ColumnName="kwota" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
